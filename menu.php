@@ -1,30 +1,32 @@
 <header>
     <div class="container">
-        <div class="logo">
+        <div class="logo desktop">
             <img src="/img/chirac_logo_2.png" alt="logo jacques chirac" />
         </div>
 
-        <div class="photo">
-            <img src="/img/chiracAirline.png" src="chirac dort dans l'avion"/>
+        <div class="desktop">
+            <div class="photo">
+                <img src="/img/chiracAirline.png" src="chirac dort dans l'avion"/>
+            </div>
+            <p id="job">
+                Président
+            </p>            
         </div>
-
-        <h2>
-            Président
-        </h2>
+        
 
         <nav>
             <ul>
-                <li><a>Biographie</a></li>
-                <li><a>Réplique</a></li>
-                <li><a>Présidence</a></li>
-                <li><a>Guignols</a></li>
-                <li><a>Culture Pop</a></li>
+                <li><a class="hoverline">Biographie</a></li>
+                <li><a class="hoverline">Réplique</a></li>
+                <li><a class="hoverline">Présidence</a></li>
+                <li><a class="hoverline">Guignols</a></li>
+                <li><a class="hoverline">Culture Pop</a></li>
             </ul>
         </nav>
 
-        <div class="quote">
-            " Citation aléatoire "
-        </div>
+        <p class="quote handfont">
+            " On greffe de tout aujourd'hui : des reins, des bras, un coeur, sauf des couilles, par manque de donneurs."
+        </p>
 
         <div class="socialNet">
             <ul>

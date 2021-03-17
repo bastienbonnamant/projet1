@@ -1,0 +1,94 @@
+    @media screen and (max-width: 600px) {
+        h1 {
+            font-size: 3rem;
+            text-align: end;
+        }
+        header {
+            position: absolute;
+            margin: 0;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            transform: translateY(-100%);
+            transition: all .5s ease-out;
+        }
+        header.active {
+            transform: translateY(0);
+        }
+        section {
+            display: block;
+        }
+        /* ---------class ----------*/
+        .mobile {
+            display: block;
+        }
+        .menuBtn {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-family: var(--normal-font);
+            font-size: 1.5rem;
+            color: var(--link-color);
+        }
+        /*----------Menu------------*/
+        header .container {
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            padding-bottom: 35vh;
+            overflow: hidden;
+            /*rend invisible ce qui depasse*/
+        }
+        /* anime menu content */
+        header .container * {
+            /* Etat menu inactif */
+            transform: translateY(100%);
+            /* descend tout le contenu lorsque menu n'est pas actif*/
+            opacity: 0;
+            /* contenu transparent total */
+            transition: all .5s linear;
+            /* option de transition entre les deux etats*/
+        }
+        header.active .container * {
+            /* Etat menu actif  */
+            opacity: 1;
+            transform: translateY(0);
+            /* on remet tout a sa place en .5s*/
+        }
+        /* anime end */
+        .desktop {
+            display: none;
+        }
+        nav ul li a {
+            font-size: 25px;
+            margin: 20% 0;
+        }
+        .socialNet ul {
+            margin: 10% 0 5% 0;
+        }
+        /*----------Home -----------*/
+        .home main {
+            padding: 5vh;
+        }
+        .home article p {
+            font-size: 1rem;
+        }
+        .home aside img {
+            width: 100%;
+        }
+    }
+    /* IPHONE5/SE  - GALAXY S5 - MOTO G4*/
+    
+    @media screen and (max-height: 650px) {
+        /*Menu*/
+        .socialNet ul {
+            margin: 20% 0 5% 0;
+        }
+        .quote {
+            display: none;
+        }
+        /*HOME*/
+        h1 {
+            font-size: 2rem;
+        }
+    }
