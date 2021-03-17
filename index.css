@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #1B1B24;
+    color: #F2EADF;
+}
+
+section.home {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    position: relative;
+    width: 20vw;
+    height: 100vh;
+    margin-left: 2%;
+    display: flex;
+}
+
+.container,
+.container * {
+    background-color: #414142;
+}
+
+
+/* Header */
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    height: 15%;
+    width: 100%;
+}
+
+.photo {
+    padding: 20px 0;
+}
+
+.photo img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 6px 4px 19px black;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+nav {
+    margin: 20% auto;
+    height: 20%;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #C29B65;
+    cursor: pointer;
+    letter-spacing: .2rem;
+    transition: all .2s ease-in;
+}
+
+nav ul li a:hover {
+    color: #DA4444;
+    letter-spacing: .1rem;
+}
+
+.quote {
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.socialNet ul {
+    margin: 10% 0;
+    display: flex;
+    list-style: none;
+}
+
+.socialNet ul li a {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.socialNet ul img {
+    width: 100%;
+}
+
+article {
+    margin-top: 15vh;
+    margin-left: 5vw;
+    color: #F2EADF;
+    letter-spacing: .5rem;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+article p {
+    font-size: 24px;
+    margin: 24px 0;
+}
+
+span {
+    font-size: 36px;
+    color: #DA4444;
+}
+
+.home aside img {
+    position: absolute;
+    background: transparent;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+}
