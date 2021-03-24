@@ -19,7 +19,7 @@
                 <li><a class="hoverline">Biographie</a></li>
                 <li><a class="hoverline">Réplique</a></li>
                 <li><a class="hoverline">Présidence</a></li>
-                <li><a class="hoverline">Guignols</a></li>
+                <li><a href="/guignols.php" class="hoverline">Guignols</a></li>
                 <li><a class="hoverline">Culture Pop</a></li>
             </ul>
         </nav>

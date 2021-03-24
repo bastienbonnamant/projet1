@@ -1,0 +1,41 @@
+.guignolspage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+.paragraphe{
+    margin-right: 24%;
+}
+
+.marionette {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+}
+
+.chiffreclés{
+
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.chiffre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.préférée  {
+    justify-content: space-around;
+
+}
+
