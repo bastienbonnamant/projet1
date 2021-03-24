@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+}
+
+h1,
+span.titleLetter {
+    font-size: 64px;
+    font-family: var(--serif-font);
+}
+
+span.titleLetter {
+    color: var(--red-color);
+}
+
+button {
+    border-radius: 45px;
+    background: linear-gradient(145deg, #1d1d27, #181820);
+    box-shadow: 17px 17px 34px #111117, -17px -17px 34px #252531;
+}
