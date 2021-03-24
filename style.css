@@ -1,0 +1,192 @@
+:root {
+    --main-color: #F2EADF;
+    --link-color: #C29B65;
+    --section-bkg: #1B1B24;
+    --header-bkg: #414142;
+    --red-color: #961717;
+    --normal-font: 'Economica', 'Rajdhani', 'Abel', 'Open Sans Condensed', 'Quicksand', 'Raleway', 'Saira Condensed';
+    --serif-font: 'DM Serif Text', 'Roboto Slab', 'Arapey', 'Brygada 1918', 'Domine', 'Faustina', 'Libre Baskerville';
+    --hand-font: 'Nothing You Could Do', 'Petit Formal Script', 'Amatic SC', 'Parisienne', 'Reenie Beanie', 'Mrs Saint Delafield';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: transparent;
+    color: var(--main-color);
+    font-family: var(--normal-font);
+}
+
+body {
+    background-color: var(--section-bkg);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: var(--serif-font)
+}
+h3 {
+    text-align: center;
+    color: red;
+}
+img {
+    max-width: 100%;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    color: var(--link-color);
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+a:hover {
+    color: var(--red-color);
+}
+
+/* Class */
+
+.menu {
+    display: none;
+}
+
+.handfont {
+    font-family: var(--hand-font);
+    font-size: 18px;
+    opacity: .7;
+}
+
+.hoverline {
+    position: relative;
+}
+
+.hoverline::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--link-color);
+    transform: scale(0);
+    transform-origin: left;
+    transition: all .3s ease-in;
+}
+
+.hoverline:hover::after {
+    transform: scale(1);
+}
+
+
+/* ------------------ Header ------------------ */
+
+header .container {
+    position: fixed;
+    padding: 0 5px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--header-bkg);
+    box-shadow: 5px 5px 17px 3px black;
+    text-align: center;
+}
+
+.logo {
+    width: 60%;
+}
+
+.photo {
+    padding: 20px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.photo img {
+    border-radius: 50%;
+    border: 2px solid var(--link-color);
+    box-shadow: 6px 4px 19px black;
+}
+
+#job {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    margin: 15% 0;
+    padding-bottom: 5px;
+}
+
+.socialNet ul {
+    margin: 15% 0;
+    display: flex;
+}
+
+.socialNet ul li a {
+    margin: 0 auto;
+    width: 30%;
+}
+
+/* ------------------ HOME ------------------ */
+
+.home main {
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+
+.home main article * {
+    letter-spacing: .5rem;
+    font-family: var(--serif-font);
+}
+
+.home article p {
+    margin: 24px 0;
+    font-size: 24px;
+}
+
+span {
+    font-size: 36px;
+    color: var(--red-color);
+}
+
+.home aside img {
+    position: absolute;
+    background: transparent;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    opacity: .9;
+}
+
+/* Presidence */
+
+
+
+.presidence {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+
+}
+
+.menubestof {
+    display: flex;
+    flex-direction: column;
+
+}
