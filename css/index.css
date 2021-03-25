@@ -89,6 +89,7 @@ main {
 }
 
 .asideImg {
+    width: 60%;
     position: absolute;
     background: transparent;
     bottom: 0;
