@@ -20,35 +20,35 @@
         <?php include "menu.php" ?>
        
             
-<section class="guignolspage">
+    <section class="guignolspage">
     
-<h1 class="guignols">Les Guignols</h1>
+        <h1 class="guignols">Les Guignols</h1>
 
-<div class="imageprincipale">
-    <img src="" alt=""></img>
-<p class="paragraphe"> Jacques Chirac est un personnage récurrent de l'émission télévisée Les Guignols de l'info diffusée sur Canal+, caricaturant Jacques Chirac, qui fut notamment président de la République française de 1995 à 2007.
+        <div class="imageprincipale">
+            <img src="" alt=""></img>
+            <p class="paragraphe"> 
+                Jacques Chirac est un personnage récurrent de l'émission télévisée Les Guignols de l'info diffusée sur Canal+, caricaturant Jacques Chirac, qui fut notamment président de la République française de 1995 à 2007.
+                La voix de la marionnette de Jacques Chirac est depuis les débuts des Guignols imitée par Yves Lecoq.
+                Il est présenté comme un homme bon vivant, amateur de tête de veau et de bière Corona, souvent paresseux, proche des Français. Il adopte un comportement supposé identique à celui du Français moyen — il a souvent été montré en pantoufles, vêtu d'un survêtement, regardant la télé du matin jusqu'au soir —, et toujours partant pour serrer les mains des Français et tâter la croupe des vaches au Salon de l'agriculture.
+            </p>
 
-    La voix de la marionnette de Jacques Chirac est depuis les débuts des Guignols imitée par Yves Lecoq.
-    
-    Il est présenté comme un homme bon vivant, amateur de tête de veau et de bière Corona, souvent paresseux, proche des Français. Il adopte un comportement supposé identique à celui du Français moyen — il a souvent été montré en pantoufles, vêtu d'un survêtement, regardant la télé du matin jusqu'au soir —, et toujours partant pour serrer les mains des Français et tâter la croupe des vaches au Salon de l'agriculture.</p>
-
-</div>
+        </div>
 
 
-<section class="imagemarionette">
-    <img src="images/Guignols_de_l'info_0001.jpg" alt="guignolschirac" class="marionette">
-</section>
+        <section class="imagemarionette">
+            <img src="images/Guignols_de_l'info_0001.jpg" alt="guignolschirac" class="marionette">
+        </section>
 
-<h3 class="chiffreclés">Chiffres clés</h3>
+        <h3 class="chiffreclés">Chiffres clés</h3>
 
-<section class="section2">
-     <div class="chiffre">
-        <p class="préférée">Marionette préférée des Français 2004 à 2007</p>
-        <p class="emission">Début de l'émission en 1988</p>
-        <p class="total">Plus de 300 marionettes au total</p>
-    </div>
+        <section class="section2">
+            <div class="chiffre">
+                <p class="préférée">Marionette préférée des Français 2004 à 2007</p>
+                <p class="emission">Début de l'émission en 1988</p>
+                <p class="total">Plus de 300 marionettes au total</p>
+            </div>
 
-</section>
-</section>
+        </section>
+    </section>
 </body>
 </html>
