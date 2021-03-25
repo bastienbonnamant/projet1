@@ -1,22 +1,158 @@
 body {
     display: grid;
     align-items: center;
-    justify-items: center;
     min-height: 100vh;
 }
 
+.windows {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.citation {
+    width: 75vw;
+    margin-left: 25vw;
+    margin-top: 10%;
+    height: 70%;
+}
+
+#quizz {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 h1,
-span.titleLetter {
+span.titleLetter,
+.titleText {
     font-size: 64px;
     font-family: var(--serif-font);
+}
+
+.title {
+    overflow: hidden;
 }
 
 span.titleLetter {
     color: var(--red-color);
 }
 
+#question {
+    margin: 10% auto;
+    font-size: 26px;
+    height: 15%;
+}
+
+#errors {
+    margin: 15% 0;
+}
+
+#errors li {
+    font-size: 1.3rem;
+}
+
+span.false {
+    font-size: 2rem;
+    color: var(--red-color);
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+#progress {
+    padding-bottom: 50px;
+}
+
+.asideImg {
+    width: 40%;
+    opacity: .4;
+    z-index: -1;
+}
+
+
+/* ANIMATION DES BOUTONS*/
+
 button {
-    border-radius: 45px;
-    background: linear-gradient(145deg, #1d1d27, #181820);
-    box-shadow: 17px 17px 34px #111117, -17px -17px 34px #252531;
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 0 5%;
+}
+
+button p {
+    opacity: .5;
+    transition: all .2s linear;
+}
+
+button:hover p {
+    opacity: 1;
+    font-size: 1.3rem;
+    color: var(--link-color);
+    letter-spacing: .3rem;
+}
+
+span.line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button::before,
+button::after,
+span.line::before,
+span.line::after {
+    position: absolute;
+    content: "";
+    transition: all .2s ease-in;
+}
+
+button::before,
+button::after {
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: var(--link-color);
+}
+
+button::before {
+    left: 0;
+}
+
+button::after {
+    right: 0;
+}
+
+button:hover::before,
+button:hover::after {
+    height: 0;
+}
+
+span.line::before,
+span.line::after {
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--link-color);
+}
+
+span.line::before {
+    top: 0;
+}
+
+span.line::after {
+    bottom: 0;
+}
+
+button:hover span.line::before,
+button:hover span.line::after {
+    width: 0;
 }

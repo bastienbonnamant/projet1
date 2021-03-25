@@ -47,10 +47,45 @@ header img {
     text-transform: uppercase;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+
+nav a {
+    display: block;
+}
+
+a:hover {
+    color: var(--red-color);
+    text-shadow: 0 0 0;
+}
+
 nav ul li a {
     margin: 15% 0;
     padding-bottom: 5px;
     text-shadow: 4px 5px 2px black;
+}
+
+.quoteContainer {
+    display: flex;
+    align-items: center;
+    height: 15%;
+}
+
+.quote {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.quote.in {
+    opacity: .5;
 }
 
 .socialNet ul {
@@ -63,19 +98,6 @@ nav ul li a {
     width: 30%;
 }
 
-ul {
-    list-style: none;
-}
-
-a {
-    display: block;
-    color: var(--link-color);
-    cursor: pointer;
-    text-decoration: none;
-    transition: all .2s ease-in;
-}
-
-a:hover {
-    color: var(--red-color);
-    text-shadow: 0 0 0;
+.socialNet img {
+    width: 30%;
 }

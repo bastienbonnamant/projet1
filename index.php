@@ -3,8 +3,8 @@
         <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-            <link href="/css/nav.css" rel="stylesheet">
             <link href="/css/index.css" rel="stylesheet"> 
+            <link href="/css/nav.css" rel="stylesheet">
             <link href="/css/indexMobile.css" rel="stylesheet">
             
             <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,17 +21,19 @@
                 <main>
                     <div class="menuBtn mobile">Menu</div>
                     <article>
-                        <p >Bonjour, je m'appelle</p>
-                        <h1>Chirac, Jacques Chirac</h1>
-                        <p >et je suis un mangeur de <span>Pomme</span></p>
+                        <div class="overflowH"><p class="paragraphe1">Bonjour, je m'appelle</p></div>
+                        <h1 class="overflowH"><div class="chirac1">Chirac,</div> <div class="jacques">Jacques </div><div class="chirac2">Chirac</div></h1>
+                        <div class="overflowH"><p class="paragraphe2">et je suis un mangeur de <a href="https://www.google.com/search?sxsrf=ALeKk02JNUGW0JBPxm_NrTubKZ_4CVdz3g:1616658729420&source=univ&tbm=isch&q=pomme&sa=X&ved=2ahUKEwiamaiK-8rvAhUQkhQKHTXEB6gQjJkEegQIBxAB&biw=1325&bih=969" target="blank"><span class="pomme">Pomme</span></a></p></div>
                     </article>
 
                     <aside > 
                         <img class="asideImg" src="/img/Chirac_pose.png" alt="Chirac fume"/>
-                </aside>
+                    </aside>
                 </main>
             </section>
+
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-            <script src="/script/mobil.js"></script>
+            <script src="/script/anim.js"></script>
+            <script src="/script/nav.js"></script>
         </body>
     </html>

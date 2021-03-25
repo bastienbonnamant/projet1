@@ -1,4 +1,5 @@
-<header>
+
+<header class="header">
     <div class="container">
         <div class="logo desktop">
             <img src="/img/chirac_logo_2.png" alt="logo jacques chirac" />
@@ -16,7 +17,7 @@
 
         <nav>
             <ul>
-                <li><a class="hoverline">Biographie</a></li>
+                <li><a href="/index.php" class="hoverline">Accueil</a></li>
                 <li><a href="./quote.php" class="hoverline">Réplique</a></li>
                 <li><a class="hoverline">Présidence</a></li>
                 <li><a class="hoverline">Guignols</a></li>
@@ -24,9 +25,11 @@
             </ul>
         </nav>
 
-        <p class="quote handfont">
-            " On greffe de tout aujourd'hui : des reins, des bras, un coeur, sauf des couilles, par manque de donneurs."
-        </p>
+        <div class="quoteContainer">
+            <p class="quote handfont">
+                
+            </p>
+        </div>
 
         <div class="socialNet">
             <ul>

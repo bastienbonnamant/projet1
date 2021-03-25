@@ -9,7 +9,7 @@
     --red-color: #961717;
     --normal-font: 'Economica', 'Rajdhani', 'Abel', 'Open Sans Condensed', 'Quicksand', 'Raleway', 'Saira Condensed';
     --serif-font: 'DM Serif Text', 'Roboto Slab', 'Arapey', 'Brygada 1918', 'Domine', 'Faustina', 'Libre Baskerville';
-    --hand-font: 'Nothing You Could Do', 'Petit Formal Script', 'Amatic SC', 'Parisienne', 'Reenie Beanie', 'Mrs Saint Delafield';
+    --hand-font: 'Nothing You Could Do', 'Petit Formal Script', 'Amatic SC', 'Reenie Beanie', 'Parisienne', 'Mrs Saint Delafield';
 }
 
 * {
@@ -26,9 +26,14 @@ body {
     background-color: var(--section-bkg);
 }
 
-h1 {
+h1,
+.chirac1,
+.chirac2,
+.jacques {
     font-size: 64px;
     font-family: var(--serif-font);
+    letter-spacing: .5rem;
+    color: var(--main-color);
 }
 
 main {
@@ -60,7 +65,6 @@ main {
 .handfont {
     font-family: var(--hand-font);
     font-size: 18px;
-    opacity: .7;
 }
 
 .hoverline {
@@ -114,12 +118,27 @@ main {
     font-family: var(--serif-font);
 }
 
-.home article p {
-    margin: 24px 0;
-    font-size: 24px;
+.home article div.overflowH {
+    margin: 25px 0;
 }
 
-span {
+.overflowH {
+    overflow: hidden;
+}
+
+.home h1 {
+    display: flex;
+}
+
+.jacques {
+    margin: 0 20px;
+}
+
+.home article p {
+    font-size: 32px;
+}
+
+span.pomme {
     font-size: 36px;
     color: var(--red-color);
 }
