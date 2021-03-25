@@ -39,11 +39,16 @@
                 </div>
                
             </div>
-            <p id="progress"></p>
+            
+                <p id="progress"></p>
+              
+         
+            
             <img class="asideImg" src="/img/chirac1.png" alt="Chirac pensse"/>
-
+            
         </section>
 </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="/script/anim.js"></script>
     <script src="/script/script.js"></script>

@@ -95,6 +95,7 @@
     <hr>
     <br>
     </section>
+    <p class="credits">Made with love by Bastien</p>
 <script src="/script/nav.js"></script>
 </body>
 </html>
