@@ -1,0 +1,178 @@
+.culturepage {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 50px;
+    margin-top: 20px;
+    max-width: 100vw;
+}
+
+.Titre{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sous-titre{
+    margin : 30px;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    text-align: center;
+}
+
+.paragraphe{
+    align-items: center;
+    justify-content:space-around;
+    margin-left: auto;
+    margin-right: auto ;
+    text-align: justify;
+}
+
+
+/*Tourniquet*/
+
+.about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding : 20px;
+}
+
+.about .about-content .leftcolumn{
+    width : 35%;
+}
+
+.about .about-content .leftcolumn img{
+    height: 500px;
+    width: 300px;
+    object-fit:cover;
+    border-radius:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    
+}
+
+.about .about-content .rightcolumn{
+    width : 50%;
+    text-align: justify;
+
+}
+/* Patriote*/
+
+.patriote .patriote-content {
+    display: flex;
+    align-items: center;
+    padding : 20px;
+}
+
+
+.patriote .patriote-content .leftcolumn{
+    width : 45%;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.patriote .patriote-content .rightcolumn{
+    align-items: center;
+    justify-content:space-around;
+    padding-left: 100px;
+}
+
+.patriote .patriote-content .rightcolumn img{
+    
+    height: 350px;
+    width: 500px;
+    border-radius:10px;
+    margin-left: auto;
+    margin-right: auto ;
+    justify-content:space-around;
+
+}
+
+/* Meme*/
+
+.meme .about-content .leftcolumn{
+    width : 45%;
+    padding : 20px;
+}
+
+.meme .about-content .leftcolumn img{
+    height: 400px;
+    width: 750px;
+    object-fit:cover;
+    border-radius:10px;
+    display: block;
+}   
+
+.meme .about-content .rightcolumn{
+    width : 50%;
+    text-align: justify;
+    padding: 0px 80px;
+}
+/*Meme Bouton*/
+
+.bouton {
+    align-items: center;
+}
+
+.bouton a {
+    text-decoration: none;
+    border: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(167, 152, 20);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+}
+
+.bouton a:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.bouton a:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+/*Fun fact*/
+
+.funfact .funfact-content {
+    display: flex;
+    align-items: center;
+    padding : 20px;
+}
+
+
+.funfact .funfact-content .leftcolumn{
+    width : 55%;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.funfact .funfact-content .rightcolumn{
+    align-items: center;
+    justify-content:space-around;
+    padding-left: 110px;
+}
+
+.funfact .funfact-content .rightcolumn img{
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    border-radius:10px;
+    margin-left: auto;
+    margin-right: auto ;
+    justify-content:space-around;
+    
+
+}
+
+
