@@ -140,6 +140,7 @@ main {
 span.pomme {
     font-size: 36px;
     color: var(--red-color);
+    z-index: -1;
 }
 
 .home img {

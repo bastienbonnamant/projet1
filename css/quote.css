@@ -91,11 +91,18 @@ button p {
     transition: all .2s linear;
 }
 
+button p:hover,
+button span:hover,
+button:hover {
+    cursor: pointer;
+}
+
 button:hover p {
     opacity: 1;
     font-size: 1.3rem;
     color: var(--link-color);
     letter-spacing: .3rem;
+    cursor: pointer;
 }
 
 span.line {
@@ -113,6 +120,7 @@ span.line::after {
     position: absolute;
     content: "";
     transition: all .2s ease-in;
+    cursor: pointer;
 }
 
 button::before,
