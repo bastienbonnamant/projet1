@@ -148,5 +148,6 @@
                     </div>
     </article>
         <p class="credits">Made with love by Martin</p>
+        <script src="/script/nav.js"></script>
 </body>
 </html>
