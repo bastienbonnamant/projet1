@@ -100,7 +100,13 @@
        
               </section>
       
-              <h4 class ="intertitre"> Jacques Chirac, réelu président des français le 5mai 2022 </h4>
+              <h4 class ="intertitre"> Jacques Chirac, réelu président des français le 5mai 2002 </h4>
+              <p>
+                <br>Jacques Chirac est réelu pour son second mandat le 5mai 2002, battant Jean Marie Lepen avec plus de 82% des voix récoltés. 
+                  Il sera le premier président de la 5ème république à effectuer un quiquenat, mesure qu'il avait lui même fais passer lors de son précèdent
+                  septennat.
+                  Durant la première années de son quiquenat, le Président Chirac a refuser de se joindre aux USA lors de son invasion de l'Iraq. <br><br>
+              </p>
         </section>
         <p class="credits">Made with love by Maxime</p>
     </section>
