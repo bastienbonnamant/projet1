@@ -20,8 +20,8 @@
                 <li><a href="/index.php" class="hoverline">Accueil</a></li>
                 <li><a href="./quote.php" class="hoverline">Réplique</a></li>
                 <li><a class="hoverline">Présidence</a></li>
-                <li><a class="hoverline">Guignols</a></li>
-                <li><a class="hoverline">Culture Pop</a></li>
+                <li><a href="/guignols.php" class="hoverline">Guignols</a></li>
+                <li><a href="/culture.php" class="hoverline">Culture Pop</a></li>
             </ul>
         </nav>
 
