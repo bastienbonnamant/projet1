@@ -1,0 +1,69 @@
+.culturepage {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25vw;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.culturepage article {
+    margin: 75px 0;
+}
+
+.culturepage h1 {
+    margin-bottom: 50px;
+}
+
+h2.sous-titre {
+    padding: 20px 0;
+    margin: 50px;
+    border-bottom: solid 1px var(--main-color);
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.leftcolumn {
+    padding-right: 50px;
+}
+
+
+/*TOURNIQUET*/
+
+.tourniquet {
+    width: 80%;
+}
+
+
+/*Meme Bouton*/
+
+.bouton {
+    margin: 25px;
+}
+
+.bouton a {
+    text-decoration: none;
+    border: 0;
+    padding: 5px 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(167, 152, 20);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    transition: all .3s linear;
+}
+
+.bouton a:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.bouton a:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

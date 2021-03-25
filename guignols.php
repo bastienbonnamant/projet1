@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <link href="/css/index.css" rel="stylesheet"> 
+    <link href="/css/nav.css" rel="stylesheet">
     <link href="guignols.css" rel="stylesheet"> 
     <link href="/css/indexMobile.css" rel="stylesheet">   
     <link rel="preconnect" href="https://fonts.gstatic.com">
