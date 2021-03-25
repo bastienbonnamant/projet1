@@ -174,15 +174,14 @@
     }
     
     .info1 {
-        margin-bottom: 30px;
-        margin-right: 10px;
+        margin: 50px auto;
+        display: block;
         height: 25rem;
         box-shadow: 16px 16px 10px black;
         border-radius: 20px;
     }
     
     .explications {
-        display: flex;
         background-color: #303035;
     }
     
