@@ -17,16 +17,25 @@
 
         <section class="presidence">
          
-           <h3> Sa présidence </h3>
+           <h3 class="firsttitre"> Le président préféré des Français <br></h3>
+           <section class="trait"><br><br></section>
+                <h4 class ="intertitre"> Jacques Chirac, élu président des français le 7mai 1995 </h4>
 
-                <p> Jacques Chirac, élu président des français le 7mai 1995 </p>
+            <section class="trait"></section>
+             <p><br><br><br></p>
 
+             <img class="pics" src="img/DTywGGpWkAExYMF.jpeg">
+            <p> Quatrième président de la Vème République </p><br>
 
-            <p> Quatrième président de la Vème République </p>
+    <p>Il était arrivé en deuxième position au premier tour de l'élection présidentielle, le 23 avril 1995, avec 20,8% des voix,
+     derrière Lionel Jospin (23,3%). Mais au second, Jacques Chirac s'impose largement face au candidat PS, avec 52,6% des suffrages.
+      Il rompt ainsi avec les deux septennats socialistes de François Mitterrand.<br>
 
-    <p>Il était arrivé en deuxième position au premier tour de l'élection présidentielle, le 23 avril 1995, avec 20,8% des voix, derrière Lionel Jospin (23,3%). Mais au second, Jacques Chirac s'impose largement face au candidat PS, avec 52,6% des suffrages. Il rompt ainsi avec les deux septennats socialistes de François Mitterrand.
+       <br>Le soir de sa victoire, Jacques Chirac attend les résultats dans son bureau, à l'hôtel de ville de Paris. Il est maire de la capitale depuis 1977.
+        Il prend la parole depuis un salon de l'édifice. Son discours est retransmis en direct sur un écran géant installé place de la Concorde.<br><br> </p>
+    
+    <p> Durant son premier septennat, Chirac a instauré, entre autre, le quiquenat présidentielle, dont il profitera en 2002, lors de sa réelection.</p>
 
-Le soir de sa victoire, Jacques Chirac attend les résultats dans son bureau, à l'hôtel de ville de Paris. Il est maire de la capitale depuis 1977. Il prend la parole depuis un salon de l'édifice. Son discours est retransmis en direct sur un écran géant installé place de la Concorde.
 
     </section>
     </section>
